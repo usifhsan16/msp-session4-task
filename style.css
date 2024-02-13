@@ -1,0 +1,543 @@
+.body
+{
+    background-color: black;
+    width: device-width;
+    height: 1700px;
+}
+.container
+{
+    height: 100%;
+    width: 100%;
+}
+.fade1
+{
+    background: radial-gradient(50% 50% at 50% 50%, #242424 0%, #000000 100%);
+}
+.nav
+{
+    width: device-width;
+    height: 30px;
+    display: flex; 
+    justify-content: space-between;
+}
+.logo
+{
+    display: flex;
+    justify-content: left;
+    width: 250px;
+    color: orangered;
+}
+.photo
+{
+    width: 50px;
+    height: 30px;
+}
+.it
+{
+    width: 150px;
+    font-size: 24px;
+    height: 100%;
+}
+.button
+{
+    height: 100%;
+    width: 100px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.pages
+{
+    height: 100%;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.bi-linkedin
+{
+    color: orangered;
+    font-size: 24px;
+    height: 100%;
+
+}
+.bi-twitter
+{
+    color: orangered;
+    font-size: 24px;
+    height: 100%;
+}
+.bi-instagram
+{
+    color: orangered;
+    font-size: 24px;
+    height: 100%;
+}
+.bi-facebook
+{
+    color: orangered;
+    font-size: 24px;
+    height: 100%;
+}
+.one
+{
+    width: device-width;
+    height: 450px; 
+    display: flex;
+    position: relative;  
+}
+.space
+{
+    width: device-width;
+    height: 50px;
+}
+.w
+{
+    width: 33%;
+    height: 100%;
+    color: white;
+    position: relative;
+}
+.l
+{
+    font-size: 100px;
+    color: white;
+    font-style: bold;       
+}
+.o
+{
+    font-size: 100px;
+    color: orangered;
+    font-style: bold;    
+}
+.b2
+{
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: orangered;
+    font-style: bold;
+    color: white;
+    position: absolute;
+    bottom: 90px;
+    left: 0px;
+}
+.pages2
+{
+    display: flex;
+    position: absolute;
+    bottom: 60px;
+    left: 0px;
+    color: orangered;
+}
+.p
+{
+    height: 100%;
+    width: 33%;
+}
+.c
+{
+    width: 100%;
+    height: 100%; 
+    border-radius: 50%;
+    background-color: orangered;  
+    position: relative;
+}
+.c2
+{
+    background: radial-gradient(50% 50% at 50% 50%, #242424 0%, #000000 100%);
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    top: 40px;
+    left: 50px;
+}
+.img2
+{
+    width: 600px;
+    height: 450px;
+    position: absolute;
+    top: 0px;
+    left: 425px;
+}
+.f
+{
+    width: 33%;
+    height: 100%;
+    position: relative;
+}
+#flower1
+{
+    font-size: 150px;
+    color: orangered;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+#flower2
+{
+    font-size: 100px;
+    color: orangered;
+    position: absolute;
+    top: 150px;
+    right: 110px;
+
+}
+#flower3
+{
+    font-size: 70px;
+    color: orangered;
+    position: absolute;
+    bottom: 50px;
+    left: 90px;
+}
+.stats
+{
+    width: device-width;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.html
+{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    color: white;
+    background: #222 linear-gradient(to right, transparent 50%, var(--clr)0);
+}
+.h3
+{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 2.5em;
+    z-index: 1;
+    font-weight: 500;
+}
+.html .h4
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    z-index: 1;
+    font-weight: 300;
+}
+.html ::before
+{
+    content: '';
+    display: block;
+    height: 100%;
+    margin-left: 50%;
+    transform-origin: left;
+    border-radius: 0 100% 100% 0/50%;
+}
+.html ::after
+{
+    content: '';
+    position: absolute;
+    inset: 10px;
+    border-radius: 50%;
+    background: #222;
+    
+}
+.html ::before
+{
+    background: var(--clr);
+    transform: rotate(calc(((var(--i) -50) *0.01turn)));
+}
+.two
+{
+    width: device-width;
+    height: 450px;
+    background-color: black;
+    display: flex;
+}
+.left
+{
+    width: 50%;
+    height: 100%;
+    margin-left: 35px;
+    margin-top: 40px;
+    color: white;
+    position: relative;
+}
+.h
+{
+    color:orangered;
+    font-size: 15px;
+}
+.welcome
+{
+    color: white;
+    font-size: 50px;
+}
+.orange
+{
+    color: orangered;
+    font-size: 50px;  
+}
+.see
+{
+    font-style: bold;
+}
+.pages3
+{
+    display: flex;
+    position: absolute;
+    bottom: 150px;
+    left: 100px;
+    color: orangered;
+}
+.get
+{
+    background-color:orangered;
+    color: black;
+    border-radius: 20px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 80px;
+    width: 120px;
+    height: 40px;
+}
+.right
+{
+    width: 50%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    margin: 40px;
+    grid-gap: 10px;
+}
+.pic1
+{
+    grid-column-start: 1;
+    grid-column-end: span 3;
+}
+.pic2
+{
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 2;
+}
+.pic3
+{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+}
+.pic4
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+}
+.pic5
+{
+    grid-column-start: 2;
+    grid-column-end: span 2;
+    grid-row-start: 3;   
+}
+.i1
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}.i2
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}.i3
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}.i4
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}.i5
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.three
+{
+    width: device-width;
+    height: 150px;
+}
+.why
+{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    font-style: bold;
+}
+.z
+{
+    font-size: 60px;
+    color: orangered;
+    text-align: center;
+    font-style: bold;
+}
+.four
+{
+    width: device-width;
+    height: 330px;
+    margin-top: 0px;
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.box1
+{
+    background: linear-gradient(180deg, #2D2D2D 0%, #000000 100%);
+    border-radius: 15px;  
+    height: 90%;
+    width: 300px; 
+    padding-left: 20px;
+    padding-top: 30px;
+    color: white;
+}
+.box2
+{
+    background: linear-gradient(180deg, #2D2D2D 0%, #000000 100%);
+    border-radius: 15px;
+    height: 90%;
+    width: 300px;
+    padding-left: 20px;
+    padding-top: 30px;
+    color: white;
+}
+.box3
+{
+    background: linear-gradient(180deg, #2D2D2D 0%, #000000 100%);
+    border-radius: 15px;
+    height: 90%;
+    width: 300px;
+    padding-left: 20px;
+    padding-top: 30px;
+    color: white;   
+}
+.box4
+{
+    background: linear-gradient(180deg, #2D2D2D 0%, #000000 100%);
+    border-radius: 15px;
+    height: 90%;
+    width: 300px;
+    padding-left: 20px;
+    padding-top: 30px;
+    color: white; 
+}
+.bi-lightning
+{
+    font-size: 40px;
+    color: orangered;
+}
+.caption1
+{
+    font-size: 25px;
+}
+.link
+{
+    color: orangered;
+    text-decoration: none;
+}
+.bi-brightness-high-fill
+{
+    font-size: 40px;
+    color: orangered;
+}
+.bi-flower3
+{
+    font-size: 40px;
+    color: orangered;
+}
+.bi-hypnotize
+{
+    font-size: 40px;
+    color: orangered;    
+}
+.five
+{
+    width: device-width;
+    height: 200px;
+    background-image: url(https://www.figma.com/file/oKkOU6fud0CjrXmmM0DspW/image/15f1083aa7bbc91c5a96cde0d4f9d0cc49e9a803);
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+.last1
+{
+    width: 70%;
+    height: 80%;
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.q
+{
+    color: orangered;
+    text-decoration: none;
+}
+pages4
+{
+    display: flex;
+    position: absolute;
+    bottom: 25px;
+    left: 10px;
+    color: orangered; 
+}
+.ul
+{
+    grid-column-start: 2;
+    grid-column-end: span 3;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.last2
+{
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.j
+{
+    color: white;
+    text-decoration: none;    
+}
+.last3
+{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color: white;
+}
+.last4
+{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    color: white;
+}
